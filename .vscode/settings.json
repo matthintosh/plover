@@ -1,0 +1,10 @@
+{
+  "i18n-ally.localesPaths": ["i18n", "i18n/locales"],
+  "eslint.useFlatConfig": true,
+  "prettier.enable": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "formattingToggle.affects": ["editor.formatOnSave"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}

@@ -1,0 +1,10 @@
+{
+  "login": {
+    "title": "Connexion",
+    "description": "Connectez-vous à votre compte pour continuer",
+    "email": "Email",
+    "password": "Mot de passe",
+    "login": "Connexion",
+    "register": "Inscription"
+  }
+}
