@@ -1,11 +1,12 @@
 <template>
-  <div class="flex min-h-screen">
+  <div class="flex flex-col min-h-screen">
     <SidebarProvider>
       <AppSidebar />
-      <!-- Main content -->
       <main class="flex-1">
-        <SidebarTrigger />
-        <slot />
+        <div class="p-2 h-full">
+          <SidebarTrigger />
+          <slot />
+        </div>
       </main>
     </SidebarProvider>
   </div>

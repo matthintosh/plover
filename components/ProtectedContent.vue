@@ -12,5 +12,6 @@ const logout = async () => {
   <div>
     <p>Welcome, {{ user?.email }}</p>
     <button @click="logout">Logout</button>
+    <slot />
   </div>
 </template>
